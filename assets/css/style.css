@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: #39424b;
+    font-family: 'Circular Std', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 239, 18, 0.1);
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.table thead th {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+}
+
+
+.btn {
+    border-radius: 13px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.table tbody tr:hover {
+    background-color: #e9f5f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 1000;
+}
+
+.table {
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: #6C63FF; 
+    border: none;
+    color: white;
+}
+
+.btn-success {
+    background: #6C63FF; 
+    border: none;
+    color: white;
+}
+
+.btn-warning {
+    background: #6C63FF; 
+    border: none;
+    color: white;
+}
+
+.btn-danger {
+    background: #FF5757; 
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover, .btn-success:hover, .btn-warning:hover, .btn-danger:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    filter: brightness(110%);
+}
